@@ -19,7 +19,9 @@ This way, the project combined theoretical aspects (modeling) with practical dat
 
 ## Requirements
 Make sure you have **Python 3** and **SQLite3** installed. Then install Flask, either with pip or conda:
-- Using pip: pip install flask
+- Using pip:
+```bash
+pip install flask
 - Using conda: conda install flask
 
 

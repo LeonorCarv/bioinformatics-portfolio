@@ -1,0 +1,1 @@
+This repository contains my Bioinformatics projects completed during my undergraduate studies, organized by academic year. Each project folder includes a dedicated README with detailed explanations of the tasks, code, and data used.

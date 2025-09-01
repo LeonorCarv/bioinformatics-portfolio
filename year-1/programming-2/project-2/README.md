@@ -1,12 +1,14 @@
 # Project 2
-This project contains four tasks (T1, T2, T3, T4) that analyze Nobel Prize data, images, Portuguese legislative data, and Nobel nominations.
+
+## Theme
+Python-based data exploration and analysis of historical, visual, and social datasets including Nobel Prizes, images, and elections.
 
 ## Brief Description
 This project consists of four parts:
-1. Part 1 - Nobel Prize: Shared laureates, multi-category winners, missing years, decade ranking.
-2. Part 2 - Image Processing: Grayscale, black & white, contour, automatic threshold.
-3. Part 3 - Legislative Data: Voter stats, abstention rates, municipality gains/losses.
-4. Part 4 - Nominations Graph: Most nominated, cross-nominations, Einstein → Feynman path.
+1. **Part 1 - Nobel Prize**: Shared laureates, multi-category winners, missing years, decade ranking.
+2. **Part 2 - Image Processing**: Grayscale, black & white, contour, automatic threshold.
+3. **Part 3 - Legislative Data**: Voter stats, abstention rates, municipality gains/losses.
+4. **Part 4 - Nominations Graph**: Most nominated, cross-nominations, Einstein → Feynman path.
 
 ## Authors
 Maria Leonor Carvalho

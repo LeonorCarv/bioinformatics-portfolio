@@ -461,4 +461,5 @@ hard_button = tk.Button(root, text="Difícil", command=lambda: on_difficulty_sel
 hard_button.pack(pady=10)
 
 # Inicia o loop principal da interface gráfica
+
 root.mainloop()

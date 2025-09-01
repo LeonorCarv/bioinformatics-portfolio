@@ -26,7 +26,7 @@ The project requires the following Python libraries:
 - collections (standard library, for deque)
 - Pillow (`PIL`)  
   Install with: `pip install pillow`
-- tabuleiros.py (local module containing maze layouts)
+- `tabuleiros.py` (local module containing maze layouts)
 
 ## How to Run
 1. Navigate to the project directory.  

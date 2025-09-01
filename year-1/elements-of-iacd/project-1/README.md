@@ -32,8 +32,13 @@ The project requires the following Python libraries:
 1. Navigate to the project directory.  
 3. Edit line 25 of `unequal_l_m.py` to set the correct path to the image used in the game.  
 4. Run the following commands:  
-```bash
-python tabuleiros.py
-python modo_desafio.py
+```
+python modo_normal.py
 python modo_desafio.py  # Optional, for Challenge Mode
+```
 
+## How to Play
+Choose between **Normal Mode** or **Challenge Mode**:
+- **Normal Mode:** Allows the player to select the difficulty level of the game (easy, medium, or hard).  
+- **Challenge Mode:** Uses a **timer** and only presents mazes with **hard** difficulty.  
+The game is played using the **arrow keys** on the keyboard (Up, Down, Left, Right).

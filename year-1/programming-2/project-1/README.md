@@ -40,7 +40,7 @@ pip install numpy
 
 ## How to Run
 1. Clone or download the repository.
-2. Make sure the folder `dados` is in the same directory as the Python script.
+2. Make sure the folder `data` is in the same directory as the Python script.
 3. Open a terminal and navigate to the project directory.
 4. Run the script with:
 ```

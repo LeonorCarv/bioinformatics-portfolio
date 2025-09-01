@@ -31,10 +31,10 @@ The project requires the following Python libraries:
 ## How to Run
 1. Navigate to the project directory.  
 3. Edit line 25 of `unequal_l_m.py` to set the correct path to the image used in the game.  
-4. Run the following commands:  
+4. Run one of the following commands:  
 ```
-python modo_normal.py
-python modo_desafio.py  # Optional, for Challenge Mode
+python modo_normal.py   # For Normal Mode
+python modo_desafio.py  # For Challenge Mode
 ```
 
 ## How to Play

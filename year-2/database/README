@@ -1,1 +1,16 @@
+1. Pré-requisitos: Verificar se o Python 3 e o SQlite3 estão instalados no sistema, se não instalar. Após isso instalar a bibliotecas Flask. Existem duas formas de o fazer:
+	1. Usar o comando pip/pip3:
+		1.	Abrir o terminal;
+		2.	Executar o comando:
+		pip install flask
 
+	2. Usar o Anaconda:
+		1. Criar um ambiente ou utilizar um existente;
+		2. Instalar as bibliotecas com o comando:
+		conda install flask
+
+2. Execução:
+	1. Abrir o terminal e navegar até o diretório raiz do projeto;
+	2. Iniciar o servidor Flask executando o seguinte comando: python3 app.py
+	3. Após o servidor iniciar, será exibido uma mensagem a indicar que está a rodar em http://127.0.0.1:5000. Copiar este link.
+	4. Abrir um navegador à escolha e colar o link na barra de endereços.

@@ -1,22 +1,19 @@
 # Project 3
 
 ## Theme
-Text and DNA sequence analysis using Python for data processing, exploration, and biological information analysis.
+Visualization and analysis of fractal systems, environmental data, geospatial listings, and ecological networks using Python for exploration and insight extraction.
 
 ## Brief Description
-This project consists of two parts:
+This project demonstrates the processing and visualization of diverse datasets using Python, including:
 
-1. **Part 1 - Text Processing**  
-   - Reading and organizing paragraphs from text files.
-   - Identification and analysis of chapters.
-   - Determining the shortest chapter, the longest dialogue, and mentions of specific characters.
-   - Extraction of monologues addressed to a given character.
+1. **Part 1 - L-Systems and Fractals**: Generation and visualization of plant-like structures using recursive string rewriting (L-Systems) and turtle graphics.
 
-2. **Part 2 - DNA Sequence Analysis**  
-   - Reading and processing DNA sequences from FASTA files.
-   - Determining complementary and reverse strands.
-   - Identification of proteins encoded in the sequences (ORFs).
-   - Extraction of intergenic regions.
+2. **Part 2 - Environmental Data**: Analysis and interactive visualization of European Union recycling data (packaging and municipal waste) using Matplotlib widgets.
+
+3. **Part 3 - Geospatial Data Analysis**: Mapping Airbnb listings and neighborhood reviews in Porto, Portugal, using GeoPandas and Contextily for basemaps.
+
+4. **Part 4 - Ecosystem Networks**: Construction and visualization of a trophic network, representing biomass transfer between species using NetworkX.
+
 
 ## Authors
 Maria Leonor Carvalho
@@ -30,12 +27,15 @@ Python 3.x installed on your system
 
 The project requires the following Python libraries:
 - pandas
-- numpy
-  
+- GeoPandas
+- Matplotlib
+- Shapely
+- NetworkX
+- Contextily
+
 Install with:
 ```
-pip install pandas
-pip install numpy
+pip install pandas geopandas matplotlib shapely networkx contextily
 ```
 
 ## How to Run
@@ -44,5 +44,5 @@ pip install numpy
 3. Open a terminal and navigate to the project directory.
 4. Run the script with:
 ```
-python project1.py
+python project3.py
 ```

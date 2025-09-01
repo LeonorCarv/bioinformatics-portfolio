@@ -1,7 +1,5 @@
 # Gradient Boosting for Class Imbalance in Binary Classification
 
-**Course:** Computational Learning (Year X)
-
 ## Learning Goals
 1. Understand how a selected Machine Learning (ML) algorithm works in detail, both theoretically and empirically.
 2. Understand how benchmarking of ML algorithms is carried out.

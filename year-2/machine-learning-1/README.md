@@ -30,5 +30,5 @@ Gradient Boosting is a powerful ensemble method that iteratively builds decision
 2. Run the main script from `src/`:
 
 ```bash
-python src/main.py
+python src/assignment.py
 

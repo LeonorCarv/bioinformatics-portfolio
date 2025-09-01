@@ -21,11 +21,11 @@ This way, the project combined theoretical aspects (modeling) with practical dat
 Make sure you have **Python 3** and **SQLite3** installed. Then install Flask, either with pip or conda:
 - Using pip:
 ```pip install flask```
-- Using conda: conda install flask
+- Using conda: ```conda install flask```
 
 
 ## How to Run
 1. Open a terminal and navigate to the project root directory.
-2. Start the Flask server with: python3 app.py
+2. Start the Flask server with: ```python3 app.py```
 3. Once the server starts, you will see a message indicating it is running at: http://127.0.0.1:5000
 4. Copy this link and open it in your browser to interact with the database.

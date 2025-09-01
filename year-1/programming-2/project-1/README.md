@@ -27,9 +27,11 @@ Maria Leonor Carvalho
 
 ## Requirements and Libraries
 Python 3.x installed on your system
+
 The project requires the following Python libraries:
 - pandas
 - numpy
+  
 Install with:
 ```bash
 pip install pandas

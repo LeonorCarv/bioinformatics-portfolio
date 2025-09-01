@@ -1,7 +1,7 @@
 # Data exploration and enrichment for supervised classification
 
 ## Project Description
-This project develops a full data science pipeline for supervised classification using the ´Hepatocellular Carcinoma (HCC) dataset´, collected at Coimbra Hospital and University Center (CHUC), Portugal.  
+This project develops a full data science pipeline for supervised classification using the ```Hepatocellular Carcinoma (HCC)``` dataset, collected at Coimbra Hospital and University Center (CHUC), Portugal.  
 
 The pipeline includes:
 - **Data Exploration:** Examine feature types, record counts, class distribution, missing values, outliers, irrelevant features, etc., supported with visualizations.  

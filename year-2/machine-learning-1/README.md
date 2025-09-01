@@ -15,7 +15,7 @@ The goal of this project is to implement a Gradient Boosting classifier from scr
 Gradient Boosting is a powerful ensemble method that iteratively builds decision trees to minimize a loss function. Real-world datasets often present challenges such as class imbalance, which can reduce model performance. This project addresses this challenge by implementing two modified versions of Gradient Boosting and benchmarking them on imbalanced binary classification datasets.
 
 ## Libraries
-- Python 3.9+
+Install Python (3.9+) and the required packages:
 - numpy  
 - scipy  
 - pandas  

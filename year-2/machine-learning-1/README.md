@@ -26,9 +26,5 @@ Gradient Boosting is a powerful ensemble method that iteratively builds decision
 - joblib
 
 ## How to Run
-1. Place your dataset files in the `data/` folder.
-2. Run the main script from `src/`:
-
-```bash
-python src/assignment.py
-
+Open `assignment.ipynb` in Jupyter Notebook (or JupyterLab) and run all cells. 
+Datasets are placed in the `dados/` folder.

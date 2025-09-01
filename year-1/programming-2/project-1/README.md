@@ -1,4 +1,4 @@
-# Project 1 - Programming 2
+# Project 1
 
 ## Theme
 Text and DNA sequence analysis using Python for data processing, exploration, and biological information analysis.

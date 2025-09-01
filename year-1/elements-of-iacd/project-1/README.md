@@ -34,5 +34,6 @@ The project requires the following Python libraries:
 4. Run the following commands:  
 ```bash
 python tabuleiros.py
+python modo_desafio.py
 python modo_desafio.py  # Optional, for Challenge Mode
 

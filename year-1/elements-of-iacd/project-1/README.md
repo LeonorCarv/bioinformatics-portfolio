@@ -33,6 +33,6 @@ The project requires the following Python libraries:
 3. Edit line 25 of `unequal_l_m.py` to set the correct path to the image used in the game.  
 4. Run the following commands:  
 ```bash
-python unequal_l_m.py
+python tabuleiros.py
 python modo_desafio.py  # Optional, for Challenge Mode
 

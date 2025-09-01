@@ -1,1 +1,32 @@
-
+Data exploration and enrichment for 
+supervised classification 
+Classificação: 
+Este trabalho foi realizado no âmbito da cadeira de Elementos da 
+Inteligência Artificial e Ciência de Dados, mais expecificamente na área de 
+Ciência de Dados, lecionada pela professora Miriam Snatos e pelo 
+professor Pedro Ferreira. 
+Breve descrição: 
+Neste trabalho, propomos apresentar, utilizando a linguagem Python, a 
+análise e o processamento de um conjunto de dados sobre Carcinoma 
+Hepatocelular (HCC), recolhido pelo Centro Hospitalar e Universitário de 
+Coimbra (CHUC).  
+Autores: 
+o Ana Matilde Ferreira 
+o Catarina Aguiar 
+o Maria Leonor Carvalho 
+Versões 
+As versões dos sistemas operativos utilizados para desenvolver e testar 
+esta aplicação são: 
+o macOS Sonoma 14.4.1 
+o Windows 11 
+o Python Version 3.12.0 
+Requisitos 
+Para instalar os requisitos, execute: 
+o pip install pandas 
+o pip install matplotlib 
+o pip install seaborn 
+o pip install scikit-learn 
+o pip install imbalanced-learn 
+o pip install numpy 
+Results 
+As experiências estão no jupyter notebook.

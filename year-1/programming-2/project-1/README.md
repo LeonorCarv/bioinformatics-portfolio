@@ -19,15 +19,18 @@ This project consists of two parts:
    - Extraction of intergenic regions.
 
 ## Authors
-- Maria Leonor Carvalho
+Maria Leonor Carvalho
 
 ## Versions
 - Python 3.12
 - Operating System: Windows 11 / macOS Sonoma 14.4.1
 
 ## Requirements and Libraries
-- Python 3.x
-
+Python 3.x installed on your system
+The project requires the following Python libraries:
+- pandas
+- numpy
+Install with:
 ```bash
 pip install pandas
 pip install numpy

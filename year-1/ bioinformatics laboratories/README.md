@@ -1,42 +1,43 @@
 # TP53 Gene - Project Website
 
-##  Sobre este Projeto
+##  About the project
 
-Este projeto consistiu na criação de um website informativo sobre o **gene TP53** (Tumor Suppressor Protein 53), um dos genes mais importantes na biologia humana e na investigação do cancro.
+This project consisted of developing an informative website about the **TP53 gene** (Tumor Suppressor Protein 53), one of the most important genes in human biology and cancer research.
 
-O objetivo foi desenvolver uma plataforma interativa e educativa que apresenta informações detalhadas sobre este gene, sua função biológica e relevância clínica.
+The main goal was to create an interactive and educational platform presenting detailed information about this gene, its biological functions, and its clinical relevance.
 
----
-
-## O que contém o Website
-
-O site inclui:
-
-- **Introdução ao Gene TP53**
-  - O que é e por que é importante
-  - Localização cromossómica e estrutura
-
-- **Funções Biológicas**
-  - Papel na regulação do ciclo celular
-  - Mecanismo de supressão tumoral
-  - Resposta ao stress celular
-
-- **Doenças Associadas**
-  - Ligação com vários tipos de cancro
-  - Síndrome de Li-Fraumeni
-  - Implicações clínicas
-
-- **Pesquisa e Dados**
-  - Informações atualizadas sobre investigação
-  - Gráficos e visualizações
-  - Referências científicas
 
 ---
 
-## Como Visualizar
+## Website Contents
 
-Para aceder ao website completo e interativo, **clique no link abaixo:**
+The website includes:
+
+- **Introduction to the TP53 Gene**
+  - What it is and why it is important
+  - Chromosomal location and structure
+
+- **Biological Functions**
+  - Role in cell cycle regulation
+  - Tumor suppression mechanisms
+  - Cellular stress response
+
+- **Associated Diseases**
+  - Connection to various types of cancer
+  - Li-Fraumeni syndrome
+  - Clinical implications
+
+- **Research and Data**
+  - Updated research information
+  - Graphs and visualizations
+  - Scientific references
+
+---
+
+## How to Access
+
+To view the complete interactive website, **click the link below**:
 
 ### [TP53 Gene Project](https://sites.google.com/view/tp53-gene?usp=sharing)
 
-Basta clicar no link acima e será redirecionado para o site com toda a documentação visual e detalhada.
+Simply click the link above to access the website and explore all visual materials and detailed documentation.

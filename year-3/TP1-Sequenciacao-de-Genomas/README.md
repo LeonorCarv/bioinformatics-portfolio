@@ -1,35 +1,69 @@
-#!/usr/bin/env bash
-# shellcheck disable=SC1091
+# TP1-Sequenciacao-de-Genomas
 
-set -e # Parar em caso de Erro
+### Trabalho realizado por:
+- Ana Matilde Ferreira (up202307802@up.pt)
+- Maria Leonor Carvalho (up202307522@up.pt)
 
-#---------------------------------
-# Ambiente genomica_tp1
-#---------------------------------
-NOME_AMBIENTE="genomica_tp1"
-ENV_FILE="env/environment.yml"
+### Estrutura de diretórios
+├── Makefile
 
-echo "Verificar se o ambiente '$NOME_AMBIENTE' existe"
-if conda env list | grep -q "$NOME_AMBIENTE"; then
-	echo "Ambiente já existe"
-else
-	echo "Criar ambiente"
-	conda env create -f "$ENV_FILE"
-fi
-echo ""
+├── README.md
 
+├── env
 
-echo "Ativar ambiente Conda"
+	├── environment.yml
 
-# Inicializar conda dentro de scripts
-source "$(conda info --base)/etc/profile.d/conda.sh"
-# Ativar o ambiente
-conda activate genomica_tp1
-echo "Ambiente ativo: genomica_tp1"
+└── scripts
 
-echo "Executar Makefile"
-make all
-#make all_verificacao
-#make all_download
-#make qc
-#make all_assembly
+	├── analisar_scripts.sh
+
+	└── go.sh
+
+### Ferramentas utilizadas
+name: genomica_tp1
+
+channels:
+  - bioconda
+  - conda-forge
+
+dependencies:
+  - python
+  - fastqc
+  - spades
+  - flye
+  - unicycler
+  - quast
+  - busco
+  - prokka
+  - samtools
+  - pandas
+  - shellcheck
+  - wget
+  - sra-tools
+
+### Reprodutibilidade e Execução
+Todo o pipeline é totalmente automatizado através do ficheiro go.sh.
+
+Para executar a análise completa:
+ - bash scripts/go.sh
+
+O script:
+1. Cria o ambiente Conda e instala todas as dependências.
+2. Ativa o ambiente.
+3. Chama o Makefile.
+4. O Makefile executa, por ordem:
+	- Download dos dados (Illumina e Nanopore)
+	- QC (FastQC)
+	- Montagens (Illumina / Nanopore / Híbrida)
+	- Polimento da montagem de Long Reads
+	- Avaliação (QUAST + BUSCO)
+	- Anotação (melhor montagem - híbrida)
+	- Geração automática da tabela final sumario.tsv na raiz do repositório
+
+### Resultados
+
+Após a execução de go.sh, os principais resultados são guardados em:
+- results/evaluation/sumario.tsv: Tabela com os parâmetros comparativos das montagens
+- results/evaluation/quast: Relatórios QUAST
+- results/evaluation/busco/: Relatórios BUSCO
+- esults/annotation/: Ficheiros da anotação Prokka

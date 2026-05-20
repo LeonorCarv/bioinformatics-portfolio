@@ -2,9 +2,9 @@
 
 ## About the Project
 
-This project was developed for the *Machine Learning II* course and focused on the implementation and evaluation of Deep Learning models for **urban sound classification** using the **UrbanSound8K** dataset. :contentReference[oaicite:0]{index=0}
+This project was developed for the *Machine Learning II* course and focused on the implementation and evaluation of Deep Learning models for **urban sound classification** using the **UrbanSound8K** dataset.
 
-The main objective was to classify environmental audio clips into 10 different sound categories, including car horns, dog barks, drilling, sirens, street music, and gunshots. :contentReference[oaicite:1]{index=1}
+The main objective was to classify environmental audio clips into 10 different sound categories, including car horns, dog barks, drilling, sirens, street music, and gunshots.
 
 Two Deep Learning approaches were implemented and compared:
 
@@ -12,12 +12,12 @@ Two Deep Learning approaches were implemented and compared:
 - **Convolutional Neural Network (CNN)**
 
 The project included:
-- audio preprocessing and normalization,
-- feature extraction,
-- data augmentation,
-- model training and optimization,
-- performance evaluation using 10-fold cross-validation,
-- and adversarial robustness analysis using DeepFool.
+- Audio preprocessing and normalization
+- Feature extraction
+- Data augmentation
+- Model training and optimization
+- Performance evaluation using 10-fold cross-validation
+- Adversarial robustness analysis using DeepFool
 
 ---
 

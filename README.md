@@ -4,5 +4,5 @@
 
 **Degree**: Bachelor in Bioinformatics, FCUP University of Porto
 
-Welcome to my undergraduate Bioinformatics portfolio. This repository contains the projects I completed during my studies. Each project is organized in its respective folder and includes a detailed README explaining the tasks, code, and datasets used.
-The portfolio showcases my skills in Python programming, data analysis, visualization, machine learning and bioinformatics. It provides a clear overview of my progression and competencies across the years of study.
+Welcome to my Bioinformatics portfolio. This repository contains the projects I completed during my bachelor. Each project is organized in its respective folder and includes a detailed README explaining the tasks, code, and datasets used.
+The portfolio showcases my skills in Python programming, data analysis, visualization, machine learning and bioinformatics. It provides a clear overview of my progression and competencies across 3 years of study.

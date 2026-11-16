@@ -4,7 +4,7 @@
 
 **Degree:** BSc in Bioinformatics, Faculty of Sciences, University of Porto (FCUP)
 
-**Current degree:** MSc in Data Science and Engineering, Faculty of Engineering, University of Porto (FEUP), see my [Data Science Portfolio](https://github.com/LeonorCarv/data-science-portfolio)
+**Current degree:** MSc in Data Science and Engineering, Faculty of Engineering, University of Porto (FEUP), see my [Data Science and Engineering Portfolio](https://github.com/LeonorCarv/data-science-engineering-portfolio)
 
 Welcome to my Bioinformatics portfolio. This repository contains the projects I completed during my bachelor's degree, organised by year and course. Each project has its own folder with a README that describes the tasks, data, methods and code. The portfolio covers Python programming, data analysis, visualization, machine learning and bioinformatics, and shows my progression across the three years of the degree.
 
@@ -14,7 +14,7 @@ Welcome to my Bioinformatics portfolio. This repository contains the projects I 
 
 | Course | Folder |
 |---|---|
-| Bioinformatics Laboratories | [bioinformatics-laboratories](year-1/bioinformatics%20laboratories) |
+| Bioinformatics Laboratories | [bioinformatics-laboratories](year-1/bioinformatics-laboratories) |
 | Elements of Artificial Intelligence and Data Science | [elements-of-iacd](year-1/elements-of-iacd) |
 | Programming 2 | [programming-2](year-1/programming-2) |
 
